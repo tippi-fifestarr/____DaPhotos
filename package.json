@@ -1,9 +1,11 @@
 {
-  "name": "name...",
+  "name": "daPhotos!",
   "version": "0.1.0",
-  "description": "description...",
-  "author": "gregory@dappuniversity.com",
+  "description": "killdabadphoto...",
+  "author": "tippi@boober.org",
   "dependencies": {
+    "@charkour/react-reactions": "^0.5.0",
+    "@truffle/hdwallet-provider": "^1.3.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
@@ -17,13 +19,14 @@
     "identicon.js": "^2.3.3",
     "ipfs-http-client": "^33.1.1",
     "react": "16.8.4",
-    "react-bootstrap": "1.0.0-beta.5",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "16.8.4",
+    "react-reactions": "^0.1.3",
     "react-scripts": "2.1.3",
-    "truffle": "5.0.5",
-    "web3": "1.0.0-beta.55"
+    "truffle": "^5.3.3",
+    "web3": "^1.3.5"
   },
-  "homepage": "http://dappuniversity.github.io/decentragram",
+  "homepage": "http://tippi-fifestarr.github.io/DaPhotos",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,6 +45,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "truffle-plugin-verify": "^0.5.7"
   }
 }

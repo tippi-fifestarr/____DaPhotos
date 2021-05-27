@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
-import photo from '../photo.png'
+import favicon from './favicon-32x32.png'
 
 class Navbar extends Component {
 
@@ -9,12 +9,12 @@ class Navbar extends Component {
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         <a
           className="navbar-brand col-sm-3 col-md-2 mr-0"
-          href="http://www.dappuniversity.com/bootcamp"
+          href="http://www.boober.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={photo} width="30" height="30" className="d-inline-block align-top" alt="" />
-          Decentragram
+          <img src={favicon} width="30" height="30" className="d-inline-block align-top" alt="" />
+          🗡️💗🤣🌶️📚//DaPhotos 📸 DApp//tippi fifestarr 💀 fs webdev wingbird * loadBlockchainData
         </a>
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
